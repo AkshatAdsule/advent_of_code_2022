@@ -57,7 +57,6 @@ public class Day1Problem2 extends Solution<Integer> {
             }
         }
 
-        System.out.printf("%d,%d,%d\n", max1, max2, max3);
         return max1 + max2 + max3;
     }
 
