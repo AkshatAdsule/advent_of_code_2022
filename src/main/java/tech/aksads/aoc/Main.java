@@ -6,12 +6,16 @@ import com.diogonunes.jcolor.Attribute;
 import tech.aksads.aoc.solutions.Solution;
 import tech.aksads.aoc.solutions.day1.Day1Problem1;
 import tech.aksads.aoc.solutions.day1.Day1Problem2;
+import tech.aksads.aoc.solutions.day2.Day2Problem1;
+import tech.aksads.aoc.solutions.day2.Day2Problem2;
 
 
 public class Main {
     private static final Solution<?>[] solutions = new Solution[] {
         new Day1Problem1(),
         new Day1Problem2(),
+        new Day2Problem1(),
+        new Day2Problem2()
     };
 
     public static void main(String[] args) {
