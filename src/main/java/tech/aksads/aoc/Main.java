@@ -12,6 +12,8 @@ import tech.aksads.aoc.solutions.day3.Day3Problem1;
 import tech.aksads.aoc.solutions.day3.Day3Problem2;
 import tech.aksads.aoc.solutions.day4.Day4Problem1;
 import tech.aksads.aoc.solutions.day4.Day4Problem2;
+import tech.aksads.aoc.solutions.day5.Day5Problem1;
+import tech.aksads.aoc.solutions.day5.Day5Problem2;
 
 
 public class Main {
@@ -23,7 +25,9 @@ public class Main {
         new Day3Problem1(),
         new Day3Problem2(),
         new Day4Problem1(),
-        new Day4Problem2()
+        new Day4Problem2(),
+        new Day5Problem1(),
+        new Day5Problem2()
     };
 
     public static void main(String[] args) {
