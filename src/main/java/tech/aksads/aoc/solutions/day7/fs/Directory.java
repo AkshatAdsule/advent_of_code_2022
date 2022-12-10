@@ -34,7 +34,7 @@ public class Directory extends FileSystemEntry {
     }
 
     public int solve_part_2(int size_needed) {
-        int best_fit = 0;
+        int best_fit = Integer.MAX_VALUE;
         int size = get_size();
 
         if(size >= size_needed) {
